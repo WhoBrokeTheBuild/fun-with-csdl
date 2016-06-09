@@ -67,10 +67,15 @@ int main(int argc, char** argv)
 
         SDL_RenderClear(rdr);
 
+        render_box(rdr, mX, mY, 0.1f);
         render_box(rdr, mX, mY, 0.2f);
+        render_box(rdr, mX, mY, 0.3f);
         render_box(rdr, mX, mY, 0.4f);
+        render_box(rdr, mX, mY, 0.5f);
         render_box(rdr, mX, mY, 0.6f);
+        render_box(rdr, mX, mY, 0.7f);
         render_box(rdr, mX, mY, 0.8f);
+        render_box(rdr, mX, mY, 0.9f);
 
         SDL_RenderDrawLine(rdr, 0, 0, mX, mY);
         SDL_RenderDrawLine(rdr, 1024, 0, mX, mY);
